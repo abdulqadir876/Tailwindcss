@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="container mx-auto bg-blue-500 p-4 text-white flex justify-between">
+        <div class="text-2xl font-bold cursor-pointer">
+            <h1>Tailwind</h1>
+        </div>
+        <nav>
+            <div class="px-4  sm:hidden" id="burger">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </div>
+           <ul class="text-lg lg:flex md:justify-center hidden md:block" id="menu">
+               <li class="mr-2 font-bold hover:text-blue-200 hover:border-b-6 border-indigo-500"><a href="#">Home</a></li>
+               <li class="mr-2 hover:text-blue-200"><a href="#">Path</a></li>
+               <li class="mr-2 hover:text-blue-200"><a href="#">Gallery</a></li>
+               <li class="mr-2 hover:text-blue-200"><a href="#">Contact</a></li>
+           </ul>
+        </nav>
+    </header>
+
+    <script src="app.js"></script>
+</body>
+</html>
